@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sariaya Biodiversity Portfolio — Documenting the ecological ridge-to-reef corridor from Mount Banahaw to Tayabas Bay in Sariaya, Quezon.">
+  <meta name="author" content="Sariaya Biodiversity Project">
+  <title>Sariaya Biodiversity | Ridge-to-Reef Environmental Portfolio</title>
+  
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Relative stylesheet reference -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       1. NAVBAR / HEADER LANDMARK
+       ========================================================================= -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-container">
+      <!-- Brand Logo & Title -->
+      <a href="#hero" class="brand" aria-label="Sariaya Biodiversity Homepage">
+        <svg class="brand-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+          <path d="M2 21c3-2 6-2 9 0 3-2 6-2 9 0" />
+        </svg>
+        <span class="brand-text">Sariaya<span class="brand-accent">Bio</span></span>
+      </a>
+
+      <!-- Primary Navigation Landmark -->
+      <nav class="site-nav" id="site-nav" aria-label="Main Navigation">
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#interactive-hub" class="nav-link">Interactive Explorer</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Switcher & Header Action -->
+      <div class="header-actions">
+        <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light and dark color scheme" title="Switch color mode">
+          <svg class="theme-icon sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="theme-icon moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+        <a href="#contact" class="btn btn-outline header-cta">Connect</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN CONTENT LANDMARK
+       ========================================================================= -->
+  <main id="main-content" tabindex="-1">
+    
+    <!-- =======================================================================
+         2. HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="hero-container">
+        <div class="hero-text-block">
+          <div class="pill-badge" aria-label="Ecosystem Category: Ridge-to-Reef Ecological Corridor">
+            <span class="pill-dot" aria-hidden="true"></span>
+            Quezon Province Conservation Portfolio
+          </div>
+          <h1 id="hero-title" class="hero-heading">
+            From Banahaw Ridge to Tayabas Reef
+          </h1>
+          <p class="hero-lead">
+            Sariaya, Quezon, is ecologically distinctive for its complete “ridge-to-reef” ecosystem. Situated between the volcanic heights of Mount Banahaw to the north and the marine waters of Tayabas Bay to the south, Sariaya shelters an extraordinary variety of habitats across a compact geographic corridor.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" aria-label="Explore documented portfolio projects">Explore Field Projects</a>
+            <a href="#interactive-hub" class="btn btn-secondary" aria-label="Navigate to interactive biodiversity component container">Interactive Explorer</a>
+          </div>
+
+          <!-- Ecological Corridor Metrics -->
+          <ul class="hero-stats-list" aria-label="Ecological Corridor Highlights">
+            <li class="stat-item">
+              <span class="stat-number">2,170m</span>
+              <span class="stat-label">Mount Banahaw Peak</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">33 km</span>
+              <span class="stat-label">Tayabas Bay Shoreline</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">150+</span>
+              <span class="stat-label">Monitored Species</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Ridge-to-Reef Continuity</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-media-block">
+          <figure class="hero-figure">
+            <img 
+              src="./assets/large.jpg" 
+              alt="Lush green canopies and dense montane flora in the upland ecosystems of Sariaya, Quezon" 
+              class="hero-image" 
+              width="576" 
+              height="1024"
+              loading="eager"
+            >
+            <figcaption class="hero-figcaption">
+              <span class="caption-tag">Upland Corridor</span>
+              <span>Montane Cloud Forest Buffer Zone, Mount Banahaw slopes</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. CORE CONTENT SECTION (About Me & Skills + Projects Grid)
+         ======================================================================= -->
+    <!-- Part A: About Me & Ecological Methodology -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="content-container">
+        <header class="section-heading-wrapper">
+          <span class="section-kicker">Personal Portfolio & Field Research</span>
+          <h2 id="about-title" class="section-title">About the Researcher & Project</h2>
+          <p class="section-subtitle">
+            Dedicated to documenting, conserving, and communicating the interconnected ecological zones of Southern Luzon.
+          </p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-bio-card">
+            <h3 class="card-title">Ecological Mission</h3>
+            <p>
+              I am an environmental researcher and biodiversity photographer based in Quezon Province. My work centers on the 
+              <strong>ridge-to-reef corridor of Sariaya</strong>—an ecological transect where volcanic headwaters feed lush agro-forests, 
+              which in turn drain into estuarine mangrove nurseries and offshore coral reefs.
+            </p>
+            <p>
+              By capturing visual records and conducting spatial biodiversity assessments, this portfolio illustrates how upland conservation 
+              decisions directly influence marine fisheries and coastal protection in Tayabas Bay.
+            </p>
+            <div class="quote-box">
+              <blockquote cite="https://sariayabiodiversity.org">
+                “Every drop of rainfall filtered through Banahaw’s mossy canopy carries life down through Sariaya’s rivers to nourish the seagrass beds of Tayabas Bay.”
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- Skills & Field Methodologies Grid -->
+          <div class="skills-card">
+            <h3 class="card-title">Field Competencies & Methodologies</h3>
+            <div class="skills-grid" role="list" aria-label="Field competencies list">
+              <div class="skill-item" role="listitem">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="skill-name">Flora & Fauna Taxonomy</h4>
+                  <p class="skill-desc">Endemic species identification and botanical voucher collection.</p>
+                </div>
+              </div>
+
+              <div class="skill-item" role="listitem">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+                    <line x1="8" y1="2" x2="8" y2="18" />
+                    <line x1="16" y1="6" x2="16" y2="22" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="skill-name">GIS Watershed Mapping</h4>
+                  <p class="skill-desc">Spatial corridor analysis and riparian buffer zone modeling.</p>
+                </div>
+              </div>
+
+              <div class="skill-item" role="listitem">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                    <circle cx="12" cy="13" r="4" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="skill-name">Ecological Macro-Photography</h4>
+                  <p class="skill-desc">High-resolution habitat documentation and species logging.</p>
+                </div>
+              </div>
+
+              <div class="skill-item" role="listitem">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="skill-name">Community Participatory Monitoring</h4>
+                  <p class="skill-desc">Collaborating with local fisherfolk and upland farming communities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Part B: Core Projects Showcase Grid -->
+    <section class="projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="content-container">
+        <header class="section-heading-wrapper">
+          <span class="section-kicker">Portfolio Showcase</span>
+          <h2 id="projects-title" class="section-title">Ridge-to-Reef Projects Grid</h2>
+          <p class="section-subtitle">
+            Highlighting three primary ecological zones documented across Sariaya's geographic corridor.
+          </p>
+        </header>
+
+        <div class="projects-grid">
+          <!-- Project 1: Upland Montane -->
+          <article class="project-card" aria-labelledby="project-1-title">
+            <figure class="project-media">
+              <img 
+                src="./assets/large.jpg" 
+                alt="Montane rainforest vegetation and moss-covered trees on the volcanic slopes of Mount Banahaw" 
+                class="project-image" 
+                width="576" 
+                height="1024"
+                loading="lazy"
+              >
+              <span class="project-zone-badge">Zone 01: Ridge</span>
+            </figure>
+            <div class="project-content">
+              <header class="project-header">
+                <span class="project-meta">Upland Elevation: 1,200m – 2,170m</span>
+                <h3 id="project-1-title" class="project-heading">Mount Banahaw Montane Cloud Forest Survey</h3>
+              </header>
+              <p class="project-summary">
+                A multi-season assessment of epiphytic ferns, mossy cloud forest vegetation, and volcanic headwater streams that form the hydrological origin of Sariaya’s river network.
+              </p>
+              <ul class="project-tags" aria-label="Key tags for Mount Banahaw project">
+                <li class="tag">Hydrology</li>
+                <li class="tag">Endemic Ferns</li>
+                <li class="tag">Cloud Forest</li>
+              </ul>
+              <div class="project-footer">
+                <a href="#interactive-hub" class="project-action-link" aria-label="Inspect Mount Banahaw survey data in interactive hub">
+                  <span>Explore Specimen Log</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Midland Agro-Forestry Corridor -->
+          <article class="project-card" aria-labelledby="project-2-title">
+            <figure class="project-media">
+              <img 
+                src="./assets/large (1).jpg" 
+                alt="Bark microhabitats, trunk mosses, and understory flora in Sariaya's midland agro-forestry buffer corridor" 
+                class="project-image" 
+                width="576" 
+                height="1024"
+                loading="lazy"
+              >
+              <span class="project-zone-badge">Zone 02: Valley</span>
+            </figure>
+            <div class="project-content">
+              <header class="project-header">
+                <span class="project-meta">Midland Elevation: 150m – 800m</span>
+                <h3 id="project-2-title" class="project-heading">Midland Agro-Forestry & Riparian Buffer Corridor</h3>
+              </header>
+              <p class="project-summary">
+                Investigating biodiversity corridors traversing coconut groves, remnant dipterocarp forest patches, and riparian buffers that prevent soil erosion into downstream estuaries.
+              </p>
+              <ul class="project-tags" aria-label="Key tags for Midland corridor project">
+                <li class="tag">Agro-Ecology</li>
+                <li class="tag">Riparian Buffers</li>
+                <li class="tag">Soil Biology</li>
+              </ul>
+              <div class="project-footer">
+                <a href="#interactive-hub" class="project-action-link" aria-label="Inspect Midland buffer survey data in interactive hub">
+                  <span>Explore Specimen Log</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Coastal & Marine Ecosystems -->
+          <article class="project-card" aria-labelledby="project-3-title">
+            <figure class="project-media">
+              <img 
+                src="./assets/large (2).jpg" 
+                alt="Dense green foliage and vibrant vegetative canopy along the coastal mangroves and coastal line of Tayabas Bay" 
+                class="project-image" 
+                width="576" 
+                height="1024"
+                loading="lazy"
+              >
+              <span class="project-zone-badge">Zone 03: Reef</span>
+            </figure>
+            <div class="project-content">
+              <header class="project-header">
+                <span class="project-meta">Coastal Elevation: 0m – 50m</span>
+                <h3 id="project-3-title" class="project-heading">Tayabas Bay Mangrove & Estuarine Nursery Assessment</h3>
+              </header>
+              <p class="project-summary">
+                Long-term ecological monitoring of Rhizophora mangrove restoration sites, mudflat benthic fauna, and nearshore marine sanctuaries bordering Tayabas Bay.
+              </p>
+              <ul class="project-tags" aria-label="Key tags for Tayabas Bay project">
+                <li class="tag">Mangrove Ecology</li>
+                <li class="tag">Tayabas Bay</li>
+                <li class="tag">Marine Nursery</li>
+              </ul>
+              <div class="project-footer">
+                <a href="#interactive-hub" class="project-action-link" aria-label="Inspect Tayabas Bay nursery data in interactive hub">
+                  <span>Explore Specimen Log</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. INTERACTIVE COMPONENT CONTAINER
+         ======================================================================= -->
+    <section class="interactive-container-section" id="interactive-hub" aria-labelledby="interactive-title">
+      <div class="content-container">
+        <header class="section-heading-wrapper">
+          <span class="section-kicker">Interactive Exploration</span>
+          <h2 id="interactive-title" class="section-title">Interactive Component Container</h2>
+          <p class="section-subtitle">
+            Filter specimen field records, trigger detailed modal views, and examine the ridge-to-reef mechanics of Sariaya.
+          </p>
+        </header>
+
+        <!-- Interactive Module 1: Filterable Habitat Gallery -->
+        <div class="interactive-component-card">
+          <div class="component-header">
+            <h3 class="component-title">Ecosystem Specimen Filter</h3>
+            <p class="component-desc">Filter biodiversity portfolio records by ecological zone.</p>
+          </div>
+
+          <!-- Filter Tab Controls -->
+          <div class="filter-controls" role="tablist" aria-label="Filter ecological specimens by zone">
+            <button type="button" role="tab" class="filter-tab active" id="tab-all" aria-selected="true" aria-controls="specimen-gallery" data-filter="all">
+              All Habitats (3)
+            </button>
+            <button type="button" role="tab" class="filter-tab" id="tab-upland" aria-selected="false" aria-controls="specimen-gallery" data-filter="upland">
+              Mount Banahaw Upland
+            </button>
+            <button type="button" role="tab" class="filter-tab" id="tab-midland" aria-selected="false" aria-controls="specimen-gallery" data-filter="midland">
+              Midland Agro-Forest
+            </button>
+            <button type="button" role="tab" class="filter-tab" id="tab-coastal" aria-selected="false" aria-controls="specimen-gallery" data-filter="coastal">
+              Tayabas Bay Coastal
+            </button>
+          </div>
+
+          <!-- Filterable Specimen Grid -->
+          <div class="specimen-gallery" id="specimen-gallery" role="tabpanel" aria-labelledby="tab-all">
+            <!-- Specimen Item 1: Upland -->
+            <article class="specimen-card" data-category="upland" aria-labelledby="specimen-1-heading">
+              <div class="specimen-thumb-wrap">
+                <img 
+                  src="./assets/large.jpg" 
+                  alt="High altitude vegetation and mosses on Mount Banahaw, Sariaya" 
+                  class="specimen-thumb" 
+                  width="576" 
+                  height="1024"
+                  loading="lazy"
+                >
+                <span class="specimen-status-chip">Upland Cloud Forest</span>
+              </div>
+              <div class="specimen-details">
+                <h4 id="specimen-1-heading" class="specimen-title">Asplenium nidus & Moss Microhabitats</h4>
+                <p class="specimen-latin">Zone: Mount Banahaw Volcanic Slope (1,850m)</p>
+                <p class="specimen-note">Key epiphyte indicator of cloud moisture saturation and pristine air purity.</p>
+                <button 
+                  type="button" 
+                  class="btn btn-sm btn-outline open-modal-btn" 
+                  aria-haspopup="dialog" 
+                  data-modal-target="specimen-modal"
+                  data-title="Asplenium nidus & Moss Microhabitats"
+                  data-zone="Mount Banahaw Upland (1,850m Elevation)"
+                  data-image="./assets/large.jpg"
+                  data-image-alt="High altitude vegetation and mosses on Mount Banahaw, Sariaya"
+                  data-desc="This specimen thrives in the perpetual mist layer of Mount Banahaw. It functions as an organic sponge, absorbing and slowly releasing precipitation to sustain Sariaya's perennial headwater creeks."
+                  data-status="Protected - Priority Conservation"
+                >
+                  Inspect Specimen
+                </button>
+              </div>
+            </article>
+
+            <!-- Specimen Item 2: Midland -->
+            <article class="specimen-card" data-category="midland" aria-labelledby="specimen-2-heading">
+              <div class="specimen-thumb-wrap">
+                <img 
+                  src="./assets/large (1).jpg" 
+                  alt="Bark microhabitats and bark-clinging biodiversity in Sariaya midland agricultural corridor" 
+                  class="specimen-thumb" 
+                  width="576" 
+                  height="1024"
+                  loading="lazy"
+                >
+                <span class="specimen-status-chip">Midland Transition</span>
+              </div>
+              <div class="specimen-details">
+                <h4 id="specimen-2-heading" class="specimen-title">Corticolous Lichen & Tree Bark Microbiome</h4>
+                <p class="specimen-latin">Zone: Riparian Agro-Forestry Corridor (420m)</p>
+                <p class="specimen-note">Vital bio-indicator signaling riparian buffer stability between farms and rivers.</p>
+                <button 
+                  type="button" 
+                  class="btn btn-sm btn-outline open-modal-btn" 
+                  aria-haspopup="dialog" 
+                  data-modal-target="specimen-modal"
+                  data-title="Corticolous Lichen & Tree Bark Microbiome"
+                  data-zone="Midland Watershed Corridor (420m Elevation)"
+                  data-image="./assets/large (1).jpg"
+                  data-image-alt="Bark microhabitats and bark-clinging biodiversity in Sariaya midland agricultural corridor"
+                  data-desc="Surveyed within the transition belt where Mount Banahaw's foothills meet Sariaya's traditional agro-ecosystems. These biological communities play an indispensable role in nutrient cycles and micro-fauna shelter."
+                  data-status="Stable - Agro-Ecological Monitor"
+                >
+                  Inspect Specimen
+                </button>
+              </div>
+            </article>
+
+            <!-- Specimen Item 3: Coastal -->
+            <article class="specimen-card" data-category="coastal" aria-labelledby="specimen-3-heading">
+              <div class="specimen-thumb-wrap">
+                <img 
+                  src="./assets/large (2).jpg" 
+                  alt="Vibrant mangrove foliage canopy along the estuarine interface of Tayabas Bay" 
+                  class="specimen-thumb" 
+                  width="576" 
+                  height="1024"
+                  loading="lazy"
+                >
+                <span class="specimen-status-chip">Coastal Estuary</span>
+              </div>
+              <div class="specimen-details">
+                <h4 id="specimen-3-heading" class="specimen-title">Rhizophora mucronata Canopy & Roots</h4>
+                <p class="specimen-latin">Zone: Tayabas Bay Coastal Mangrove Fringe (2m)</p>
+                <p class="specimen-note">Storm-surge barrier and primary nursery for commercial reef fish of Tayabas Bay.</p>
+                <button 
+                  type="button" 
+                  class="btn btn-sm btn-outline open-modal-btn" 
+                  aria-haspopup="dialog" 
+                  data-modal-target="specimen-modal"
+                  data-title="Rhizophora mucronata Canopy & Roots"
+                  data-zone="Tayabas Bay Coastal Mangrove (Sea Level)"
+                  data-image="./assets/large (2).jpg"
+                  data-image-alt="Vibrant mangrove foliage canopy along the estuarine interface of Tayabas Bay"
+                  data-desc="Standing at the marine terminus of the Sariaya ridge-to-reef corridor, these mangrove systems trap upland sediment, preventing catastrophic siltation of Tayabas Bay's offshore coral reefs."
+                  data-status="Active Community Restoration Zone"
+                >
+                  Inspect Specimen
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Interactive Module 2: Ridge-to-Reef Accordion FAQ & Deep Dive -->
+        <div class="interactive-component-card mt-lg">
+          <div class="component-header">
+            <h3 class="component-title">Ridge-to-Reef System Mechanics</h3>
+            <p class="component-desc">Click each habitat transition to understand the environmental connections in Sariaya.</p>
+          </div>
+
+          <div class="accordion-container" id="ridge-accordion">
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item">
+              <h4>
+                <button 
+                  type="button" 
+                  class="accordion-trigger" 
+                  id="acc-btn-1" 
+                  aria-expanded="false" 
+                  aria-controls="acc-panel-1"
+                >
+                  <span class="acc-title-text">01. Mount Banahaw Volcanic Headwaters & Hydrology</span>
+                  <span class="accordion-icon" aria-hidden="true">+</span>
+                </button>
+              </h4>
+              <div 
+                class="accordion-panel" 
+                id="acc-panel-1" 
+                role="region" 
+                aria-labelledby="acc-btn-1" 
+                hidden
+              >
+                <div class="accordion-inner">
+                  <p>
+                    Mount Banahaw's dormant volcanic cone acts as a natural water tower for the municipality of Sariaya. Its dense cloud forests capture atmospheric moisture via mist interception, replenishing deep aquifers and feeding the major river channels that flow directly south into Tayabas Bay.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item">
+              <h4>
+                <button 
+                  type="button" 
+                  class="accordion-trigger" 
+                  id="acc-btn-2" 
+                  aria-expanded="false" 
+                  aria-controls="acc-panel-2"
+                >
+                  <span class="acc-title-text">02. Agro-Ecological Corridors & Soil Retention</span>
+                  <span class="accordion-icon" aria-hidden="true">+</span>
+                </button>
+              </h4>
+              <div 
+                class="accordion-panel" 
+                id="acc-panel-2" 
+                role="region" 
+                aria-labelledby="acc-btn-2" 
+                hidden
+              >
+                <div class="accordion-inner">
+                  <p>
+                    Between the mountain slopes and the ocean lies Sariaya's fertile midland plain. Well-maintained agro-forestry systems and native riparian vegetation act as biological filters, preventing agricultural runoff from choking the delicate mangrove estuaries downstream.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item">
+              <h4>
+                <button 
+                  type="button" 
+                  class="accordion-trigger" 
+                  id="acc-btn-3" 
+                  aria-expanded="false" 
+                  aria-controls="acc-panel-3"
+                >
+                  <span class="acc-title-text">03. Tayabas Bay Estuarine Mangroves & Marine Sanctuary</span>
+                  <span class="accordion-icon" aria-hidden="true">+</span>
+                </button>
+              </h4>
+              <div 
+                class="accordion-panel" 
+                id="acc-panel-3" 
+                role="region" 
+                aria-labelledby="acc-btn-3" 
+                hidden
+              >
+                <div class="accordion-inner">
+                  <p>
+                    Tayabas Bay serves as a productive marine sanctuary. The extensive mangrove belts along Sariaya's 33-kilometer shoreline provide indispensable spawning nurseries for fish and crustaceans while protecting coastal communities from seasonal typhoons and tidal surges.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         INTERACTIVE MODAL DIALOG (Specimen Inspection Window)
+         ======================================================================= -->
+    <dialog class="specimen-modal" id="specimen-modal" aria-labelledby="modal-title" aria-modal="true">
+      <div class="modal-dialog-content">
+        <header class="modal-header">
+          <div>
+            <span class="modal-zone" id="modal-zone">Ecological Zone</span>
+            <h3 class="modal-title" id="modal-title">Specimen Details</h3>
+          </div>
+          <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close specimen dialog">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </header>
+
+        <div class="modal-body">
+          <figure class="modal-figure">
+            <img 
+              src="./assets/large.jpg" 
+              alt="Detailed specimen photograph" 
+              id="modal-image" 
+              class="modal-img" 
+              width="576" 
+              height="1024"
+            >
+          </figure>
+          <div class="modal-info">
+            <h4 class="modal-status-label">Conservation Status</h4>
+            <p class="modal-status" id="modal-status">Protected - Local Monitoring</p>
+
+            <h4 class="modal-status-label">Ecological Description</h4>
+            <p class="modal-desc" id="modal-desc">
+              Detailed specimen field notes will appear here when opened.
+            </p>
+
+            <div class="modal-actions">
+              <button type="button" class="btn btn-secondary modal-close-action" id="modal-close-secondary">Close Inspector</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- =======================================================================
+         5. CONTACT / CTA SECTION
+         ======================================================================= -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="content-container">
+        <header class="section-heading-wrapper">
+          <span class="section-kicker">Get In Touch</span>
+          <h2 id="contact-title" class="section-title">Field Research Collaboration</h2>
+          <p class="section-subtitle">
+            Interested in biodiversity data sharing, academic fieldwork, or conservation partnerships in Sariaya, Quezon? Send a message below.
+          </p>
+        </header>
+
+        <div class="contact-layout">
+          <!-- Direct Contact Cards -->
+          <div class="contact-info-cards">
+            <div class="info-card">
+              <div class="info-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="info-card-title">Field Base Location</h3>
+                <p class="info-card-text">
+                  Sariaya Ecological Field Station<br>
+                  Quezon Province, 4322 Philippines
+                </p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="info-card-title">Electronic Mail</h3>
+                <p class="info-card-text">
+                  <a href="mailto:contact@sariayabiodiversity.org" class="contact-link">contact@sariayabiodiversity.org</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 14 14" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="info-card-title">Field Season Hours</h3>
+                <p class="info-card-text">
+                  Monday – Friday: 07:00 – 17:00 PHT<br>
+                  Weekend Surveys by appointment
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Working Static Contact Form -->
+          <div class="contact-form-card">
+            <form id="contact-form" class="contact-form" novalidate aria-label="Research collaboration contact form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">
+                    Full Name <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="contact-name" 
+                    name="name" 
+                    class="form-input" 
+                    placeholder="e.g., Maria Santos" 
+                    required 
+                    aria-required="true" 
+                    autocomplete="name"
+                  >
+                  <span class="field-error" id="name-error" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">
+                    Email Address <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="email" 
+                    id="contact-email" 
+                    name="email" 
+                    class="form-input" 
+                    placeholder="e.g., maria@university.edu.ph" 
+                    required 
+                    aria-required="true" 
+                    autocomplete="email"
+                  >
+                  <span class="field-error" id="email-error" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-topic" class="form-label">
+                  Collaboration Area <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <select id="contact-topic" name="topic" class="form-select" required aria-required="true">
+                  <option value="" disabled selected>Select an inquiry area...</option>
+                  <option value="banahaw">Mount Banahaw Upland Survey Data</option>
+                  <option value="agro-corridor">Midland Agro-Forestry Research</option>
+                  <option value="tayabas-bay">Tayabas Bay Marine & Mangrove Studies</option>
+                  <option value="photography">Ecological Photography Licensing</option>
+                  <option value="general">General Environmental Inquiries</option>
+                </select>
+                <span class="field-error" id="topic-error" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">
+                  Message & Proposed Scope <span class="required-indicator" aria-hidden="true">*</span>
+                </label>
+                <textarea 
+                  id="contact-message" 
+                  name="message" 
+                  rows="5" 
+                  class="form-textarea" 
+                  placeholder="Outline your inquiry, dataset request, or proposed field collaboration..." 
+                  required 
+                  aria-required="true"
+                ></textarea>
+                <span class="field-error" id="message-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Live Status Message -->
+              <div id="form-status" class="form-status-alert" role="status" aria-live="polite" hidden></div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submit-btn" aria-label="Send research collaboration message">
+                <span>Send Collaboration Inquiry</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       6. FOOTER LANDMARK
+       ========================================================================= -->
+  <footer class="site-footer" id="site-footer" role="contentinfo">
+    <div class="content-container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="brand" aria-label="Sariaya Biodiversity Homepage">
+            <svg class="brand-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+              <path d="M2 21c3-2 6-2 9 0 3-2 6-2 9 0" />
+            </svg>
+            <span class="brand-text">Sariaya<span class="brand-accent">Bio</span></span>
+          </a>
+          <p class="footer-tagline">
+            Safeguarding the complete ridge-to-reef corridor from the volcanic summits of Mount Banahaw to the marine nurseries of Tayabas Bay in Sariaya, Quezon.
+          </p>
+        </div>
+
+        <!-- Quick Links Navigation Landmark -->
+        <nav class="footer-nav-col" aria-label="Footer Quick Links">
+          <h3 class="footer-heading">Quick Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">Home / Overview</a></li>
+            <li><a href="#about" class="footer-link">About the Project</a></li>
+            <li><a href="#projects" class="footer-link">Portfolio Projects</a></li>
+            <li><a href="#interactive-hub" class="footer-link">Interactive Component</a></li>
+            <li><a href="#contact" class="footer-link">Contact & Inquiries</a></li>
+          </ul>
+        </nav>
+
+        <!-- Ecological Zones List -->
+        <div class="footer-zones-col">
+          <h3 class="footer-heading">Ecological Zones</h3>
+          <ul class="footer-links">
+            <li><span class="footer-zone-name">Mount Banahaw Cloud Forest</span></li>
+            <li><span class="footer-zone-name">Midland Riparian Buffers</span></li>
+            <li><span class="footer-zone-name">Sariaya Lowland Agro-Forests</span></li>
+            <li><span class="footer-zone-name">Tayabas Bay Mangrove Fringe</span></li>
+            <li><span class="footer-zone-name">Offshore Coral Reef Sanctuary</span></li>
+          </ul>
+        </div>
+
+        <!-- Connect & Academic Links -->
+        <div class="footer-social-col">
+          <h3 class="footer-heading">Connect & Portals</h3>
+          <p class="footer-social-text">Follow active field dispatches and open scientific datasets.</p>
+          <div class="social-links-group" aria-label="Academic and social media links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="View research datasets and code on GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+            </a>
+            <a href="https://inaturalist.org" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Explore verified Sariaya biodiversity records on iNaturalist">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M12 2a10 10 0 0 0-10 10c0 5.52 4.48 10 10 10s10-4.48 10-10A10 10 0 0 0 12 2zm1 14.93V17a1 1 0 0 1-2 0v-.07A7.003 7.003 0 0 1 5.07 11H5a1 1 0 0 1 0-2h.07A7.003 7.003 0 0 1 11 5.07V5a1 1 0 0 1 2 0v.07A7.003 7.003 0 0 1 18.93 11H19a1 1 0 0 1 0 2h-.07A7.003 7.003 0 0 1 13 16.93z" />
+              </svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Connect with the researcher on LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p class="copyright-notice">
+          &copy; 2026 Sariaya Biodiversity Project. All rights reserved. Ridge-to-Reef Environmental Documentation.
+        </p>
+        <a href="#site-header" class="back-to-top" aria-label="Return to top of page">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Relative JavaScript link -->
+  <script src="./script.js"></script>
+</body>
+</html>
